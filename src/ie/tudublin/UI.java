@@ -17,7 +17,7 @@ public class UI extends PApplet
         for(TableRow tr:table.rows())
         {
             Color c = new Color(tr);
-            Colors.add(c);
+			Colors.add(c);
 		}
 	}
 
@@ -27,6 +27,10 @@ public class UI extends PApplet
         {
 			System.out.println(Colors.get(i));  
         }
+
+	}
+
+	public void findColor(){
 
 	}
 
