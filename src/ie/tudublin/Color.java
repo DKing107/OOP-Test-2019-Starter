@@ -20,6 +20,14 @@ public class Color extends PApplet
         this.value = value;
     }
 
+    public Color(TableRow tr)
+    {
+        // Constructor chaining
+        this(tr.getString("Color"), tr.getInt("rgb"),tr.getInt("Value"));
+    }
+
+
+
     public String toString()
     {
         return color + "\t" +  + rgb + value;
