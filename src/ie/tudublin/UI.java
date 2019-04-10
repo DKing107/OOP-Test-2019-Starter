@@ -21,6 +21,15 @@ public class UI extends PApplet
 		}
 	}
 
+	public void printColors(){
+
+		for(int i = 0 ; i < Colors.size() ; i ++)
+        {
+			System.out.println(Colors.get(i));  
+        }
+
+	}
+
 	public void separate(int value)
 	{
 		int hundreds = (value / 100);
