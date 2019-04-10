@@ -27,6 +27,11 @@ public class Color extends PApplet
     public Color(TableRow tr)
     {
         this(tr.getString("colour"), tr.getInt("r"), tr.getInt("g"), tr.getInt("b"),  tr.getInt("value"));
+        
+    }
+
+    public int getValue(){
+        return value;
     }
 
     public String toString()
